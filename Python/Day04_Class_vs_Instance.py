@@ -1,6 +1,5 @@
-from Input.DataInput import *
-sampleInput = inputMethod("Input/Day04_Class_vs_Instance.txt")
-
+from DataInput import *
+sampleInput = [x.replace("\n","") for x in inputMethod("Input/Day04_Class_vs_Instance.txt")]
 
 class Person:
     def __init__(self,initialAge):

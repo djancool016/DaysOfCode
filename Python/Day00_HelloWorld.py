@@ -1,5 +1,5 @@
-from Input.DataInput import *
-sampleInput = inputMethod("Input/Day00_HelloWorld.txt")
+from DataInput import *
+sampleInput = [x.replace("\n","") for x in inputMethod("Input/Day00_HelloWorld.txt")]
 
 print ("Hello World!")
 print (sampleInput[0])

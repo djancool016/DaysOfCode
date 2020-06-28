@@ -1,5 +1,5 @@
-from Input.DataInput import *
-sampleInput = inputMethod("Input/Day03_Conditional_Statements.txt")
+from DataInput import *
+sampleInput = [x.replace("\n","") for x in inputMethod("Input/Day03_Conditional_Statements.txt")]
 
 for x in range(len(sampleInput)):
 

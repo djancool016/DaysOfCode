@@ -1,5 +1,5 @@
-from Input.DataInput import *
-sampleInput = inputMethod("Input/Day02_Operator.txt")
+from DataInput import *
+sampleInput = [x.replace("\n","") for x in inputMethod("Input/Day02_Operator.txt")]
 
 # Complete the solve function below.
 def solve(meal_cost, tip_percent, tax_percent):
